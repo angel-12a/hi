@@ -1,0 +1,426 @@
+body{
+    font-size: 87%;
+    text-align: left;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+
+}
+
+.body{
+    width: 90%;
+    margin: 10px auto ;
+    border: 3px solid rgb(170, 142, 120);
+    font-family: 'Mitr', sans-serif;
+    height: 3000px;
+
+}
+
+a{text-decoration: none;}
+a:link, a:visited{color: rgb(170, 142, 120);}
+
+/*-------------maine header------------------*/
+.mainheader img{
+    width: 100%;
+}
+
+.mainheader h1{
+    color: rgb(170, 142, 120);
+    font-family: 'Philosopher', sans-serif;}
+
+.mainheader  figcaption{
+    margin-top: -33px;
+    font-style: italic;
+    font-family: normal;
+    font-size: 18px;
+    color: rgb(202, 199, 199);
+    
+}
+
+.mainheader nav {
+    background-color: rgb(29, 7, 2) ;
+    height:55px ;
+    border-radius: 5px;
+   -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainheader nav ul{
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+.mainheader nav ul li{
+    display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     padding: 10px 50px;
+     height: 20px;
+     display: inline-block;
+     font-size: 16px;
+     margin-left:30px ;
+     margin-top: 5px;
+
+}
+
+.mainheader a:hover, .mainheader a:active{
+    background-color: rgb(54, 70, 44);
+    color: rgb(255, 253, 253);
+}
+
+
+/*------------maine contact-------------------*/
+
+.maincontact{
+    width: 70%;
+    background-color:  #472707    ;
+    float: right;
+    height:70% ;
+}
+.box1{
+    margin: 10px 15px 20px 15px;
+    height: 25%;
+}
+
+.img1{    
+    float: right;
+    width: 49.7%;
+    height: 100%;
+
+}
+.img2{  
+    float: left;
+    width: 49.7%;
+    height: 100%;
+
+
+}
+
+figcaption p{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.box2{
+    border: 3px solid rgb(170, 142, 120);
+    margin-top: 90px;
+    height: 69.99%;
+}
+
+.bo{
+    height: 20%;
+    width: 45.7%;
+    margin: 10px 15px 20px 15px;
+    background-color:rgb(170, 142, 120);
+}
+
+.left{float: left;}
+.right{float: right;}
+
+.box2 p ,.box2 h1{
+    width: 60%;
+    text-align: left;
+    float:right;
+    color:  #472707 }
+
+.box2 h1{
+    color: rgb(36, 78, 8);
+    text-shadow: black;
+}
+
+.box2 ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+.box2 li{
+    display: inline;
+}
+
+
+.box2 img{
+    float: left;
+    width: 37.8%;
+    height: 100%;
+}
+
+.v a:link, .v a:visited {
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     padding: 10px 25px;
+     height: 20px;
+     display: inline-block;
+     font-size: 16px;
+     margin-left:0px ;
+     margin-top: 5px;
+
+}
+
+.v a:hover, .v a:active{
+    background-color:rgb(170, 142, 120);
+    color: black;
+}
+
+.v1   a:link, .v1 a:visited{
+    background-color:  black;
+    
+}
+
+
+.v1 a:hover, .v1 a:active{
+    background-color:rgba(0, 0, 0, 0.568);
+    color: rgb(255, 255, 255);
+}
+
+
+.v2   a:link, .v2 a:visited{
+    background-color:     rgb(255, 255, 255);
+    
+}
+
+
+.v2 a:hover, .v2 a:active{
+    background-color:rgba(255, 253, 253, 0.589);
+    color: rgb(255, 251, 251);
+}
+
+.form{
+    float: left;
+    border: 1px solid white;
+    margin-top: 20px ;
+    margin-left:180px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding-bottom: 20px;
+}
+
+.form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px 40px;
+    background-color:rgb(170, 142, 120);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px ;
+}
+
+
+.form input[type="submit"]:hover{
+    cursor:pointer;
+    background-color:rgb(238, 207, 184);
+}
+
+/*border: 1px solid white;*/
+
+
+/*------------aside-------------------*/
+
+.aside{
+    height: 70%;
+    width: 28%;
+    float: left;
+    margin-left:1% ;
+    text-align: left;
+    color:rgb(170, 142, 120);
+}
+
+.aside h3{
+    margin-left: 60px;
+
+}
+.aside ul{
+    list-style:square ;
+}
+.aside li{
+    margin-left: 30px;
+    line-height: 2.8;
+}
+
+
+.h{
+    height:232px;
+}
+.j{
+    float: right;
+    width: 50%;
+}
+
+
+.h h1{
+  color:   rgb(36, 78, 8);
+margin-top: -20px;
+}
+.wite{
+    color: white;
+}
+
+
+.h img{
+    border: 1px solid rgb(12, 109, 101);
+    float: left;
+    width: 48%;
+    height: 100%;
+}
+
+
+/*------------footer-------------------*/
+.footer{
+    float: left;
+    text-align: left;
+    color:rgb(170, 142, 120);
+
+}
+
+.footer ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 340px;
+}
+
+.footer ul li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+
+.o{
+    margin-left: 390px;
+    font-size: 10px;
+}
+
+
+/*------------mobile-------------------*/
+
+
+@media screen and (max-width: 360px){
+
+  body{
+    font-size: 70%;  }
+
+    .body{
+        width: 90%;
+    }
+
+
+    .mainheader nav {
+        height:330px ;
+    }
+    
+    .mainheader nav ul{
+        width: 100%;
+        padding: 0; 
+        margin-left: -14px;
+    }
+    
+    .mainheader nav ul li{
+        display: inline;
+    }
+    
+    .mainheader a:link, .mainheader a:visited {
+         display: block;
+        
+    
+    }
+    
+    .mainheader a:hover, .mainheader a:active{
+        display: block;
+    }
+    
+
+
+    .form{
+        float: right;
+        margin-right: -22.8px;
+    }
+
+    .footer{
+        float: right;
+    }
+
+
+    .maincontact{
+
+        width: 100%;
+    }
+
+    .box1{
+        margin: 10px 15px 20px 15px;
+        height: 25%;}
+
+    
+    .img1{    
+       
+        height: 50%;
+    
+    }
+    .img2{  
+
+        height: 50%;
+    }
+    
+
+    .box2{
+        margin-top: -10px;
+    }
+    
+    .bo{
+        height: 20%;
+        width: 91%;
+    }
+    
+    .left{float:right;
+    }
+    
+    
+     
+
+
+       .aside{
+           border: 1px solid rgb(163, 190, 38);
+        height: 50%;
+        width: 100%;
+        margin-top: 700px ;
+        float: left;
+        margin-left:1% ;
+        text-align: left;
+        color:rgb(170, 142, 120);
+        }
+    
+
+
+    
+       .footer{
+        float:right;
+    }
+    
+    .footer ul{
+        margin-left: 0px;
+    }
+    
+    
+    .o{
+        margin-left: 30px;
+        font-size: 10px;
+    }
+    
+    
+
+    
+
+}

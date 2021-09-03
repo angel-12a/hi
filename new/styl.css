@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    border: 2px solid rgb(15, 134, 189);
+    width: 90%;
+    margin:10px auto ;
+    text-align: left;
+   /* background-image:url('bbb.jfif') ;
+    background-position:center ;
+    background-size: cover ;*/
+}
+/*---------------------mainheader--------------------------*/
+.mainheader {
+    border: 2px solid black;
+}
+
+.mainheader h1{
+    border: 2px solid rgb(184, 27, 144);
+}
+
+.mainheader nav{
+    border: 1px solid rgb(146, 101, 135);
+    float: right;
+    margin-top: -49px;
+    margin-right: 300px;
+
+}
+
+.mainheader nav td{
+    padding: 12px;
+}
+
+.serch{
+    border: 1px solid rgb(255, 92, 214);
+    margin-top:-35px ;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+.maincontact{
+    border: 2px solid rgb(189, 15, 15);
+    margin-top:170px ;
+    height: 170px;
+}
+
+.div1{
+    border: 2px solid rgb(148, 189, 15);
+    float: left;
+}
+
+.div2{
+    border: 2px solid rgb(189, 128, 15);
+    float: right;
+}
+
+/*---------------------phon--------------------------*/
+
+@media screen and (max-width: 412px){
+    
+    .mainheader nav{
+        border: 3px solid rgb(134, 146, 101);
+        float: right;
+        margin-top: -1px;
+        margin-right: 4px;
+    
+    }
+    
+    .mainheader nav td{
+        padding: 12px;
+    }
+
+    .serch{
+        border: 1px solid rgb(255, 92, 214);
+        margin-top:-80px ;
+        float: right;
+        margin-right: 20px;
+    }
+    
+
+    
+}

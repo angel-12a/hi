@@ -60,13 +60,13 @@
 
 /*---------------------phon--------------------------*/
 
-@media screen and (max-width: 418px){
+@media screen and (max-width: 400px){
     
     .mainheader nav{
         border: 3px solid rgb(134, 146, 101);
         float: right;
         margin-top: -1px;
-        margin-right: 4px;
+        margin-right: -2px;
     
     }
     
